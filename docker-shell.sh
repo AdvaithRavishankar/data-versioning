@@ -9,7 +9,6 @@ export GCP_PROJECT="oceanic-diagram-471813-j8"
 export GCP_ZONE="us-central1"
 export GOOGLE_APPLICATION_CREDENTIALS="/secrets/oceanic-diagram-471813-j8-5bba3ad05c23.json"
 
-
 echo "Building image"
 docker build -t data-version-cli -f Dockerfile .
 
